@@ -202,70 +202,62 @@
   <div class="u-clearfix u-sheet u-sheet-1">
     <h2 class="u-text u-text-default u-text-1">03</h2>
     <div class="u-border-1 u-border-grey-dark-1 u-line u-line-horizontal u-line-1"></div>
-    <div class="u-gallery u-gallery-lined">
-      <div class="u-gallery-inner">
-	<div class="u-gallery-item">
-	  <img class="u-gallery-image" src="images/WhatsAppImage2024-11-18at15.17.37.jpeg" alt="Image 1">
-	</div>
-	<div class="u-gallery-item">
-	  <img class="u-gallery-image" src="images/WhatsAppImage2024-11-18at15.24.09.jpeg" alt="Image 2">
-	</div>
-	<div class="u-gallery-item">
-	  <img class="u-gallery-image" src="images/WhatsAppImage2024-11-18at15.21.57.jpeg" alt="Image 3">
-	</div>
+    <div class="u-gallery u-gallery-collage">
+      <div class="u-gallery-item">
+        <img src="images/WhatsAppImage2024-11-18at15.17.37.jpeg" alt="Image 1">
+      </div>
+      <div class="u-gallery-item">
+        <img src="images/WhatsAppImage2024-11-18at15.24.09.jpeg" alt="Image 2">
+      </div>
+      <div class="u-gallery-item">
+        <img src="images/WhatsAppImage2024-11-18at15.21.57.jpeg" alt="Image 3">
+      </div>
+      <div class="u-gallery-item">
+        <img src="images/WhatsAppImage2024-11-18at15.25.23.jpeg" alt="Image 4">
+      </div>
+      <div class="u-gallery-item">
+        <img src="images/WhatsAppImage2024-11-18at15.25.24.jpeg" alt="Image 5">
       </div>
     </div>
     <h3 class="u-text u-text-2">Cocok untuk Segala Situasi</h3>
-  </div>
-</section>
-
-<section class="u-clearfix u-grey-15 u-section-7" id="carousel_e635">
-  <div class="u-clearfix u-sheet u-sheet-1">
-    <div class="u-layout u-layout-centered">
-      <div class="u-layout-row">
-	<div class="u-container-style u-layout-cell u-size-60 u-layout-cell-1">
-	  <div class="u-container-layout u-container-layout-1">
-	    <p class="u-text u-text-1">
-	      Aroma yang dihasilkan <b>Fresh Fusion</b> adalah perpaduan sempurna antara kesegaran dan keanggunan. 
-	      Di awal, aroma citrus yang dominan memberikan efek energik dan membangkitkan semangat. Seiring waktu, 
-	      aroma floral mulai muncul, menciptakan suasana yang lembut dan elegan. Kemudian, aroma vanilla perlahan 
-	      mengambil alih, memberikan rasa nyaman yang cocok untuk digunakan di malam hari. Banyak pengguna menyukai 
-	      parfum ini karena aromanya tidak terlalu kuat, tetapi cukup untuk meninggalkan kesan positif. Dengan daya 
-	      tahan hingga 8 jam, <b>Fresh Fusion</b> mampu menemani aktivitas sehari penuh tanpa perlu menyemprot ulang. 
-	      Parfum ini juga mendapat banyak pujian karena mampu menciptakan keseimbangan antara keharuman yang memikat 
-	      dan kepraktisan. Tidak diragukan lagi, <b>Fresh Fusion</b> adalah investasi yang sangat berharga bagi mereka 
-	      yang mengutamakan kesegaran dan kepercayaan diri.
-	    </p>
-	  </div>
-	</div>
-      </div>
-    </div>
+    <p class="u-text u-text-1">
+      Aroma yang dihasilkan Fresh Fusion adalah perpaduan sempurna antara kesegaran dan keanggunan. 
+      Di awal, aroma citrus yang dominan memberikan efek energik dan membangkitkan semangat. Seiring waktu, aroma floral mulai muncul, menciptakan suasana yang lembut dan elegan. 
+      Kemudian, aroma vanilla perlahan mengambil alih, memberikan rasa nyaman yang cocok untuk digunakan di malam hari. Banyak pengguna menyukai parfum ini karena aromanya tidak terlalu kuat, tetapi cukup untuk meninggalkan kesan positif. 
+      Dengan daya tahan hingga 8 jam, Fresh Fusion mampu menemani aktivitas sehari penuh tanpa perlu menyemprot ulang. Parfum ini juga mendapat banyak pujian karena mampu menciptakan keseimbangan antara keharuman yang memikat dan kepraktisan. 
+      Tidak diragukan lagi, Fresh Fusion adalah investasi yang sangat berharga bagi mereka yang mengutamakan kesegaran dan kepercayaan diri.
+    </p>
   </div>
 </section>
 
 <style>
-/* Gallery Grid Styling */
-.u-gallery-lined {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-  gap: 15px;
-}
-
-.u-gallery-item {
-  overflow: hidden;
-  border-radius: 8px;
-}
-
-.u-gallery-image {
-  width: 100%;
-  height: auto;
-  object-fit: cover;
-}
-
-/* Adjust spacing between H3 and P */
-.u-text-2 {
-  margin-bottom: 10px;
-}
+  .u-gallery {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    gap: 10px;
+  }
+  .u-gallery-item {
+    overflow: hidden;
+    position: relative;
+  }
+  .u-gallery-item img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    transition: transform 0.3s ease;
+  }
+  .u-gallery-item:hover img {
+    transform: scale(1.1);
+  }
+  h3.u-text-2 {
+    margin-top: 20px;
+    margin-bottom: 10px; /* Reduced the space between <h3> and <p> */
+    text-align: center;
+  }
+  p.u-text-1 {
+    text-align: justify;
+    margin-top: 10px;
+  }
 </style>
     <section class="u-clearfix u-palette-4-base u-section-8" id="carousel_b9fa">
       <div class="u-align-center u-container-align-center u-container-style u-group u-shape-rectangle u-white u-group-1">
